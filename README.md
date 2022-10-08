@@ -37,7 +37,7 @@ Since the project mainly focusses on product detection in grocery store, it was 
 
 ![image](https://user-images.githubusercontent.com/81613474/194701254-d7aac6ae-92b1-4c9f-86ae-1ad295ff2620.png)
 ### Methodology :-
-1)Object detection
+#### 1)Object detection
   Here, we developed a model so that customer will select a product in grocery store and scan it and then the model detects that specific item.
   What is Robo flow?
   Robo flow is a Computer Vision developer framework for better data collection to pre-processing, and model training techniques. Robo flow also offers the option to create a dataset using a split that the user defines.
@@ -50,7 +50,7 @@ Since the project mainly focusses on product detection in grocery store, it was 
   We used YOLO V5 which is model trained on COCO dataset and which uses a transfer learning technique. We tuned this model on our dataset to get better accuracy for object detection.
 
 
-2)Object Recommendation
+#### 2)Object Recommendation
   We made a model trained on the real time dataset of a store which has the combinations of products customers are buying. It recognises the buying pattern of customers and recommending the most likely product that a customer can buy next.
 We developed this model using two techniques:-
   1) Association rule :-
@@ -64,6 +64,9 @@ How the Pickit Recommendation system helps?
 Using this information, retailers can design promotions for their goods, such as providing a discount on the best rules or tying a free item to the number of best associated rules that buyers purchase collectively. In either scenario, buyers wind up paying more money in order to take advantage of these discounts. As a result, the company experiences great profit as well as high sales.
 
 
-3)Object Location
+#### 3)Object Location
   There is a search bar in out user interface to find the locations of different products in store. When we will enter the product name, there will be an image as output with the location symbol on it representing the location of the respective product which a customer can follow to easily locate any product in store.
 Outcome - This minimises the time to search for that product in the whole store.
+
+#### 4)User Interface
+  We needed something to combine all the three models or algorithms we did so that it’ll be convenient for customers to use them. That’s why we built an user interface using Tkinter. Here the customer can search for the location of any product and there is also an option of uploading image which in return will detect the product and will recommend the next product he/she could buy.
