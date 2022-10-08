@@ -60,4 +60,10 @@ We developed this model using two techniques:-
   Apriori algorithm refers to the algorithm that determines the rules of association between items. It refers to the relationship between two or more objects. To put it another way, we can say that the apriori algorithm is a leaning association rule that examines whether customers of Product A also purchased Product B.
   
 How the Pickit Recommendation system helps?
-  Using this information, retailers can design promotions for their goods, such as providing a discount on the best rules or tying a free item to the number of best associated rules that buyers purchase collectively. In either scenario, buyers wind up paying more money in order to take advantage of these discounts. As a result, the company experiences great profit as well as high sales.
+
+Using this information, retailers can design promotions for their goods, such as providing a discount on the best rules or tying a free item to the number of best associated rules that buyers purchase collectively. In either scenario, buyers wind up paying more money in order to take advantage of these discounts. As a result, the company experiences great profit as well as high sales.
+
+
+3)Object Location
+  There is a search bar in out user interface to find the locations of different products in store. When we will enter the product name, there will be an image as output with the location symbol on it representing the location of the respective product which a customer can follow to easily locate any product in store.
+Outcome - This minimises the time to search for that product in the whole store.
