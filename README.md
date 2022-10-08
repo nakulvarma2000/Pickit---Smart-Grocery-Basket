@@ -48,7 +48,7 @@ Since the project mainly focusses on product detection in grocery store, it was 
   What is Yolo?
   YOLO is one of the most famous object detection algorithms due to its speed and accuracy.
   We used YOLO V5 which is model trained on COCO dataset and which uses a transfer learning technique. We tuned this model on our dataset to get better accuracy for object detection.
-2) Object Recommendation
+2)Object Recommendation
   We made a model trained on the real time dataset of a store which has the combinations of products customers are buying. It recognises the buying pattern of customers and recommending the most likely product that a customer can buy next.
 We developed this model using two techniques:-
   1) Association rule
